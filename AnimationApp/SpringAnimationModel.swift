@@ -19,7 +19,7 @@ struct SpringAnimationSettings {
         let preset = "\(presets.allCases[index])"
         index = Int.random(in: 0..<curves.allCases.count)
         let curve = "\(curves.allCases[index])"
-        let force = Double.random(in: 0..<1.5)
+        let force = Double.random(in: 0.5..<1.5)
         let duration = Double.random(in: 0.5..<2.0)
         let delay = Double.random(in: 0.3..<0.5)
         

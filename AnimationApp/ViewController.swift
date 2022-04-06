@@ -10,6 +10,7 @@ import Spring
 class ViewController: UIViewController {
     
     var currentAnimationSettings = SpringAnimationSettings.getRandomSettings()
+
     
     @IBOutlet weak var springAnimationView: SpringView!
     @IBOutlet weak var nextAnimation: UIButton!
@@ -32,8 +33,10 @@ class ViewController: UIViewController {
         springAnimationView.duration = currentAnimationSettings.duration
         springAnimationView.delay = currentAnimationSettings.delay
         springAnimationView.animate()
-        currentAnimationSettings = SpringAnimationSettings.getRandomSettings()
         getSettingsOnTheView()
+        currentAnimationSettings = SpringAnimationSettings.getRandomSettings()
+        nextAnimation.setTitle("Run \(currentAnimationSettings.preset)", for: .normal)
+        super.viewDidAppear(true)
     }
     
     private func getSettingsOnTheView () {
@@ -42,7 +45,6 @@ class ViewController: UIViewController {
         forceLabel.text = String(format: "force: %.2f", currentAnimationSettings.force)
         durationLabel.text = String(format: "duration: %.2f", currentAnimationSettings.duration)
         delayLabel.text = String(format: "force: %.2f", currentAnimationSettings.delay)
-        nextAnimation.setTitle("Run \(currentAnimationSettings.preset)", for: .normal)
     }
 }
 
