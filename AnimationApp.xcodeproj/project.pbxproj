@@ -14,7 +14,8 @@
 		6DA7F59D27FCB2C6002D94F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA7F59B27FCB2C6002D94F5 /* Main.storyboard */; };
 		6DA7F59F27FCB2C8002D94F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA7F59E27FCB2C8002D94F5 /* Assets.xcassets */; };
 		6DA7F5A227FCB2C8002D94F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA7F5A027FCB2C8002D94F5 /* LaunchScreen.storyboard */; };
-		6DA7F5AA27FCC834002D94F5 /* SpringAnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA7F5A927FCC834002D94F5 /* SpringAnimationModel.swift */; };
+		6DA7F5AA27FCC834002D94F5 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA7F5A927FCC834002D94F5 /* Animation.swift */; };
+		6DA7F5AC280098ED002D94F5 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA7F5AB280098ED002D94F5 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +29,8 @@
 		6DA7F59E27FCB2C8002D94F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DA7F5A127FCB2C8002D94F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DA7F5A327FCB2C8002D94F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DA7F5A927FCC834002D94F5 /* SpringAnimationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimationModel.swift; sourceTree = "<group>"; };
+		6DA7F5A927FCC834002D94F5 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		6DA7F5AB280098ED002D94F5 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		A7BF1BEC23C1380A3BE3CA7D /* Pods-AnimationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationApp.release.xcconfig"; path = "Target Support Files/Pods-AnimationApp/Pods-AnimationApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,7 +78,8 @@
 				6DA7F59527FCB2C6002D94F5 /* AppDelegate.swift */,
 				6DA7F59727FCB2C6002D94F5 /* SceneDelegate.swift */,
 				6DA7F59927FCB2C6002D94F5 /* ViewController.swift */,
-				6DA7F5A927FCC834002D94F5 /* SpringAnimationModel.swift */,
+				6DA7F5A927FCC834002D94F5 /* Animation.swift */,
+				6DA7F5AB280098ED002D94F5 /* DataManager.swift */,
 				6DA7F59B27FCB2C6002D94F5 /* Main.storyboard */,
 				6DA7F59E27FCB2C8002D94F5 /* Assets.xcassets */,
 				6DA7F5A027FCB2C8002D94F5 /* LaunchScreen.storyboard */,
@@ -210,7 +213,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DA7F59A27FCB2C6002D94F5 /* ViewController.swift in Sources */,
-				6DA7F5AA27FCC834002D94F5 /* SpringAnimationModel.swift in Sources */,
+				6DA7F5AC280098ED002D94F5 /* DataManager.swift in Sources */,
+				6DA7F5AA27FCC834002D94F5 /* Animation.swift in Sources */,
 				6DA7F59627FCB2C6002D94F5 /* AppDelegate.swift in Sources */,
 				6DA7F59827FCB2C6002D94F5 /* SceneDelegate.swift in Sources */,
 			);
